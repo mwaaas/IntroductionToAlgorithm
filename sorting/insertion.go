@@ -1,5 +1,7 @@
 package sorting
 
+// rate of growth
+// Θ(n2)
 func insertion(listToSort []int) []int {
 
 	for i := 1; i < len(listToSort); i++ {
